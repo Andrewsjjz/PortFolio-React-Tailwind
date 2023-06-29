@@ -1,0 +1,38 @@
+{
+    "header.proyect" : "Projects",
+    "header.info": "About me",
+    "header.contact": "Contact",
+
+    "content.presentation": "Hello, I am Andres Jimenez",
+    "content.info": "Full-Stack & Front-end Developer",
+    "content.cv": "Download CV",
+    "footer.follow": "Follow Me",
+
+    "project.h1": "Portfolio of projects",
+
+    "project.title1": "Client Manager",
+    "project.info1": "Project developed using the languages and frameworks of HTML, CSS, React, and Vite, employing the useState and useEffect methods. With CRUD functions.",
+    "project.button": "Visit",
+
+    "project.title2": "Budget planner",
+    "project.info2": "Project developed using HTML, CSS, React, and Vite technologies, employing the useState, useEffect, localStorage, and modal methods. With CRUD functions.",
+
+    "project.title3": "Car insurance estimator",
+    "project.info3": "Project developed using HTML, CSS, React, and Vite technologies, employing the useState, useEffect, useCallback, localStorage, and Context API methods.",
+
+    "project.title4": "Check weather",
+    "project.info4": "Project developed using HTML, CSS, React, and Vite technologies, employing the useState, useEffect, useContext, Provider, and OpenWeatherMap API methods",
+
+    "project.title5": "Drink finder",
+    "project.info5": "Project developed using HTML, CSS, React, Vite, and Bootstrap technologies, employing the useState, useEffect, Modal, and TheCocktailDB API methods.",
+
+    "project.title6": "Atenas Gym Club Next.JS 12",
+    "project.info6": "Project developed using HTML, CSS, React, Tailwind, and Next.js 12 technologies, leveraging the full power of Next.js 12, creating our own API with Strapi and using PostgreSQL database.",
+
+    "info.me1": "My name is Andres Jimenez, and I am a Computer Engineer from Rafael Belloso Chacin Private University (URBE).",
+    "info.me2": "As a Full Stack developer, I have a strong knowledge of both client-side and server-side development. My main focus is on web application development using React, combined with my skills in HTML, CSS, and JavaScript.",
+    "info.me3": "My experience includes building responsive and highly interactive web applications. I am passionate about creating intuitive and visually appealing user interfaces that provide a seamless experience to end-users. In addition to my front-end experience, I also have knowledge in developing RESTful APIs using frameworks like Express.js and Node.js, and experience in working with databases such as MongoDB, PostgreSQL, and XAMPP.",
+    "info.me4": "In addition to my technical skills, I am a communicative and collaborative individual, which allows me to work efficiently with designers, fellow developers, and stakeholders to achieve project goals. I am always open to learning from others and contributing my ideas to find innovative solutions."
+
+
+}

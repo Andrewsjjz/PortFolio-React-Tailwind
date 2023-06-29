@@ -1,0 +1,38 @@
+{
+    "header.proyect" : "Proyectos",    
+    "header.info": "Acerca de mi",
+    "header.contact": "Contacto",
+
+    "content.presentation": "Hola, soy Andrés Jiménez",
+    "content.info": "Desarrollador Full-Stack & Front-end",
+    "content.cv": "Descargar CV",
+    "footer.follow": "Sigueme",
+
+    "project.h1": "Portafolio de Proyectos",
+
+    "project.title1": "Administrador de clientes",
+    "project.info1": "Proyecto desarrollado con los lenguajes y frameworks de HTML, CSS, React y Vite, utilizando los métodos de useState y useEffect. Con funciones CRUD.",
+    "project.button": "Visitar",
+
+    "project.title2": "Planificador de gastos",
+    "project.info2": "Proyecto desarrollado con las tecnologias de HTML, CSS, React y Vite, utilizando los metodos de UseState, UseEffect, LocalStorage y Modal. Con funciones CRUD",
+    
+    "project.title3": "Cotizador de seguro para vehiculos",
+    "project.info3": "Proyecto desarrollado con las tecnologias de HTML, CSS, React y Vite, utilizando los metodos de UseState, UseEffect, UseCallBack, LocalStorage y Context API.",
+
+    "project.title4": "Consultar Clima",
+    "project.info4": "Proyecto desarrollado con las tecnologias de HTML, CSS, React y Vite, utilizando los metodos de UseState, UseEffect, UseContext, Provider y la API de OpenWeatherMap",
+
+    "project.title5": "Buscador de Bebidas",
+    "project.info5": "Proyecto desarrollado con las tecnologias de HTML, CSS, React, Vite y BootStrap, utilizando los metodos de UseState, UseEffect, Modal y la API de TheCockTaildb",
+
+    "project.title6": "Atenas Gym Club Next.JS 12",
+    "project.info6": "Proyecto desarrollado utilizando tecnologías HTML, CSS, React, Tailwind y Next.js 12, aprovechando toda la potencia de Next.js 12, creando nuestra propia API con Strapi y utilizando base de datos PostgreSQL.",
+
+    "info.me1": "Mi nombre es Andres Jimenez, soy Ingeniero en Computacion de la Universidad Privada Rafael Belloso Chacin (URBE)",
+    "info.me2": "Como desarollador Full Stack, tengo un sólido conocimiento en desarrollo tanto en el lado del cliente como en el lado del servidor. Mi enfoque principal se encuentra en el desarrollo de aplicaciones web utilizando React, combinado con mis habilidades en HTML, CSS y JavaScript.",
+    "info.me3": "Mi experiencia incluye la construcción de aplicaciones web responsivas y altamente interactivas. Me apasiona crear interfaces de usuario intuitivas y atractivas que brinden una experiencia fluida a los usuarios finales. Además de mi experiencia en el front-end, también tengo conocimientos en el desarrollo de API RESTful utilizando frameworks como Express.js y Node.js, y experiencia en el manejo de bases de datos como MongoDB, PostgreSQL y XAMPP.",
+    "info.me4": "Además de mis habilidades técnicas, soy una persona comunicativa y colaborativa, lo que me permite trabajar eficientemente con diseñadores, otros desarrolladores y partes interesadas para lograr los objetivos del proyecto. Estoy siempre dispuesto a aprender de los demás y a aportar mis ideas para encontrar soluciones innovadoras."
+
+
+}
