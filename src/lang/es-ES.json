@@ -21,13 +21,16 @@
     "project.info3": "Proyecto desarrollado con las tecnologias de HTML, CSS, React y Vite, utilizando los metodos de UseState, UseEffect, UseCallBack, LocalStorage y Context API.",
 
     "project.title4": "Consultar Clima",
-    "project.info4": "Proyecto desarrollado con las tecnologias de HTML, CSS, React y Vite, utilizando los metodos de UseState, UseEffect, UseContext, Provider y la API de OpenWeatherMap",
+    "project.info4": "Proyecto desarrollado con las tecnologias de HTML, CSS, React y Vite, utilizando los metodos de UseState, UseEffect, UseContext, Provider y la API de OpenWeatherMap. Donde se consulta el pais y la localidad que estan registrados en las opciones",
 
     "project.title5": "Buscador de Bebidas",
     "project.info5": "Proyecto desarrollado con las tecnologias de HTML, CSS, React, Vite y BootStrap, utilizando los metodos de UseState, UseEffect, Modal y la API de TheCockTaildb",
 
-    "project.title6": "Atenas Gym Club Next.JS 12",
+    "project.title6": "Atenas Gym Club",
     "project.info6": "Proyecto desarrollado utilizando tecnologías HTML, CSS, React, Tailwind y Next.js 12, aprovechando toda la potencia de Next.js 12, creando nuestra propia API con Strapi y utilizando base de datos PostgreSQL.",
+
+    "project.title7": "My Way Restaurant",
+    "project.info7": "Proyecto desarrollado con los lenguajes de React, Tailwind y Next.js 12, utilizando base de datos en la nube que es AWS y MySql y un ORM que seria Prisma. Cuenta con lado cliente donde se realizan los pedidos y un panel de admin donde seria el lado de cocina para confirmar pedidos",
 
     "info.me1": "Mi nombre es Andres Jimenez, soy Ingeniero en Computacion de la Universidad Privada Rafael Belloso Chacin (URBE)",
     "info.me2": "Como desarollador Full Stack, tengo un sólido conocimiento en desarrollo tanto en el lado del cliente como en el lado del servidor. Mi enfoque principal se encuentra en el desarrollo de aplicaciones web utilizando React, combinado con mis habilidades en HTML, CSS y JavaScript.",

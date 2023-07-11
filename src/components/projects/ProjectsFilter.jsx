@@ -5,12 +5,12 @@ const selectOptions = [
 	'Branding',
 ];
 
-const ProjectsFilter = ({ setSelectProject }) => {
+const ProjectsFilter = () => {
 	return (
 		<select
-			onChange={(e) => {
-				setSelectProject(e.target.value);
-			}}
+			// onChange={(e) => {
+			// 	setSelectProject(e.target.value);
+			// }}
 			className="font-general-medium 
                 px-4
                 sm:px-6
@@ -27,15 +27,15 @@ const ProjectsFilter = ({ setSelectProject }) => {
                 dark:text-ternary-light
             "
 		>
-			<option value={setSelectProject} className="text-sm sm:text-md">
+			<option className="text-sm sm:text-md">
 				Todos los proyectos
 			</option>
 
-			{selectOptions.map((option) => (
+			{/* {selectOptions.map((option) => (
 				<option className="text-normal sm:text-md" key={option}>
 					{option}
 				</option>
-			))}
+			))} */}
 		</select>
 	);
 };

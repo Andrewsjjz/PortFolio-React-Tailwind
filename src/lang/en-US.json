@@ -21,13 +21,16 @@
     "project.info3": "Project developed using HTML, CSS, React, and Vite technologies, employing the useState, useEffect, useCallback, localStorage, and Context API methods.",
 
     "project.title4": "Check weather",
-    "project.info4": "Project developed using HTML, CSS, React, and Vite technologies, employing the useState, useEffect, useContext, Provider, and OpenWeatherMap API methods",
+    "project.info4": "Project developed using HTML, CSS, React, and Vite technologies, employing the useState, useEffect, useContext, Provider, and OpenWeatherMap API methods Where the country and town that are registered in the options are consulted",
 
     "project.title5": "Drink finder",
     "project.info5": "Project developed using HTML, CSS, React, Vite, and Bootstrap technologies, employing the useState, useEffect, Modal, and TheCocktailDB API methods.",
 
-    "project.title6": "Atenas Gym Club Next.JS 12",
+    "project.title6": "Atenas Gym Club",
     "project.info6": "Project developed using HTML, CSS, React, Tailwind, and Next.js 12 technologies, leveraging the full power of Next.js 12, creating our own API with Strapi and using PostgreSQL database.",
+
+    "project.title7": "My Way Restaurant",
+    "project.info7": "Project developed with the React, Tailwind and Next.js 12 languages, using a cloud database that is AWS and MySql and an ORM that would be Prisma. It has a client side where orders are placed and an admin panel where the kitchen side would be to confirm orders.",
 
     "info.me1": "My name is Andres Jimenez, and I am a Computer Engineer from Rafael Belloso Chacin Private University (URBE).",
     "info.me2": "As a Full Stack developer, I have a strong knowledge of both client-side and server-side development. My main focus is on web application development using React, combined with my skills in HTML, CSS, and JavaScript.",
