@@ -3,12 +3,14 @@
     "header.info": "About me",
     "header.contact": "Contact",
 
-    "content.presentation": "Hello, I am Andres Jimenez",
-    "content.info": "Full-Stack & Front-end Developer",
+    "content.presentation": "Hello, I'm Andres Jimenez",
+    "content.info": "Computer engineer, UX/UI Designer and Full Stack React Developer",
     "content.cv": "Download CV",
     "footer.follow": "Follow Me",
 
     "project.h1": "Portfolio of projects",
+    "project.h2": "UI Project Portfolio",
+
 
     "project.title1": "Client Manager",
     "project.info1": "Project developed using the languages and frameworks of HTML, CSS, React, and Vite, employing the useState and useEffect methods. With CRUD functions.",
@@ -32,10 +34,20 @@
     "project.title7": "My Way Restaurant",
     "project.info7": "Project developed with the React, Tailwind and Next.js 12 languages, using a cloud database that is AWS and MySql and an ORM that would be Prisma. It has a client side where orders are placed and an admin panel where the kitchen side would be to confirm orders.",
 
-    "info.me1": "My name is Andres Jimenez, and I am a Computer Engineer from Rafael Belloso Chacin Private University (URBE).",
-    "info.me2": "As a Full Stack developer, I have a strong knowledge of both client-side and server-side development. My main focus is on web application development using React, combined with my skills in HTML, CSS, and JavaScript.",
-    "info.me3": "My experience includes building responsive and highly interactive web applications. I am passionate about creating intuitive and visually appealing user interfaces that provide a seamless experience to end-users. In addition to my front-end experience, I also have knowledge in developing RESTful APIs using frameworks like Express.js and Node.js, and experience in working with databases such as MongoDB, PostgreSQL, and XAMPP.",
-    "info.me4": "In addition to my technical skills, I am a communicative and collaborative individual, which allows me to work efficiently with designers, fellow developers, and stakeholders to achieve project goals. I am always open to learning from others and contributing my ideas to find innovative solutions."
+    "project.info8": "Design of a dashboard to provide detailed information on the latest soccer matches. Created with the Figma tool",
+    "project.title8": "Al Arco",
 
+    "project.info9": "Mobile application design for general information about a gym. Created with the Figma tool",
+    "project.title9": "Atenas Gym-Club",
 
+    "info.me1": "I'm Andrés Jiménez, a versatile professional with a unique combination of skills as a Computer Engineer, UX/UI Designer and Full Stack React Developer. My diverse approach allows me to create end-to-end, user-focused technology solutions. Let me introduce you to what I can contribute.",
+    "info.me2": "As a Computer Engineer, I have a solid understanding of technological fundamentals. I can tackle complex technical challenges, design efficient systems, and apply sound development methodologies. My engineering background allows me to make informed decisions and build solutions that are sound from a technical perspective.",
+    "info.me3": "As a UX/UI Designer, my focus is on user experiences. I work to understand the needs and desires of users and translate them into attractive and easy-to-use interfaces. From wireframing to visual design, my goal is to ensure every interaction is intuitive and satisfying.",
+    "info.me4":"Passionate Full Stack developer in React, with a solid experience in building innovative and efficient web applications using modern technologies. Familiarity with various databases, including SQL and NoSQL, as well as the ability to design and optimize queries for optimal performance. Experience in the design and development of robust and scalable APIs using technologies such as Node.js. Ability to translate designs and concepts into high-quality components that provide an exceptional user experience. Deep knowledge of HTML, CSS and JavaScript to achieve a seamless integration between frontend and backend.",
+    "info.me5":"My work philosophy is:",
+    "info.me6":"Solid technological solutions that align with the needs of users and business objectives.",
+    "info.me7":"Attractive and functional interface designs that enhance the user experience.",
+    "info.me8":"Comprehensive development of web applications that encompass all aspects, from functionality to design.",
+    "info.me9":"Ability to communicate technical ideas and design concepts clearly and effectively.",
+    "info.me10":"Focus on collaboration and the creation of innovative solutions."
 }

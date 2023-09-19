@@ -12,6 +12,13 @@ import MongoDB from '../images/brands/MongoDB-Logo.jpg'
 import Posgrest from '../images/brands/postgresql.png'
 import Prisma from '../images/brands/prisma.png'
 import JS from '../images/brands/JS.png'
+import AWS from '../images/brands/aws.png'
+import figma from '../images/brands/figma.png'
+import redux from '../images/brands/redux.png'
+import mysql from '../images/brands/mysql.png'
+import git from '../images/brands/git.png'
+import node from '../images/brands/node.png'
+import MERN from '../images/brands/MERN.webp'
 
 
 export const clientsHeading = 'Skills';
@@ -49,6 +56,11 @@ export const clientsData = [
 		img: NextJs,
 	},
 	{
+		id: 15,
+		title: 'Redux',
+		img: redux,
+	},
+	{
 		id: 6,
 		title: 'Remix',
 		img: Remix,
@@ -70,12 +82,42 @@ export const clientsData = [
 	},
 	{
 		id: 11,
-		title: 'Posgrest',
+		title: 'Postgresql',
 		img: Posgrest,
+	},
+	{
+		id: 16,
+		title: 'MySQL',
+		img: mysql,
+	},
+	{
+		id: 13,
+		title: 'AWS',
+		img: AWS,
 	},
 	{
 		id: 12,
 		title: 'Prisma',
 		img: Prisma,
+	},
+	{
+		id: 14,
+		title: 'Figma',
+		img: figma,
+	},
+	{
+		id: 17,
+		title: 'Git',
+		img: git,
+	},	
+	{
+		id: 18,
+		title: 'Node JS',
+		img: node,
+	},
+	{
+		id: 19,
+		title: 'MERN',
+		img: MERN,
 	},
 ];

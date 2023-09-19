@@ -4,11 +4,12 @@
     "header.contact": "Contacto",
 
     "content.presentation": "Hola, soy Andrés Jiménez",
-    "content.info": "Desarrollador Full-Stack & Front-end",
+    "content.info": "Ingeniero en Computación, UX/UI y Desarrollador Full Stack React",
     "content.cv": "Descargar CV",
     "footer.follow": "Sigueme",
 
     "project.h1": "Portafolio de Proyectos",
+    "project.h2": "Portafolio de Proyectos UI",
 
     "project.title1": "Administrador de clientes",
     "project.info1": "Proyecto desarrollado con los lenguajes y frameworks de HTML, CSS, React y Vite, utilizando los métodos de useState y useEffect. Con funciones CRUD.",
@@ -32,10 +33,22 @@
     "project.title7": "My Way Restaurant",
     "project.info7": "Proyecto desarrollado con los lenguajes de React, Tailwind y Next.js 12, utilizando base de datos en la nube que es AWS y MySql y un ORM que seria Prisma. Cuenta con lado cliente donde se realizan los pedidos y un panel de admin donde seria el lado de cocina para confirmar pedidos",
 
-    "info.me1": "Mi nombre es Andres Jimenez, soy Ingeniero en Computacion de la Universidad Privada Rafael Belloso Chacin (URBE)",
-    "info.me2": "Como desarollador Full Stack, tengo un sólido conocimiento en desarrollo tanto en el lado del cliente como en el lado del servidor. Mi enfoque principal se encuentra en el desarrollo de aplicaciones web utilizando React, combinado con mis habilidades en HTML, CSS y JavaScript.",
-    "info.me3": "Mi experiencia incluye la construcción de aplicaciones web responsivas y altamente interactivas. Me apasiona crear interfaces de usuario intuitivas y atractivas que brinden una experiencia fluida a los usuarios finales. Además de mi experiencia en el front-end, también tengo conocimientos en el desarrollo de API RESTful utilizando frameworks como Express.js y Node.js, y experiencia en el manejo de bases de datos como MongoDB, PostgreSQL y XAMPP.",
-    "info.me4": "Además de mis habilidades técnicas, soy una persona comunicativa y colaborativa, lo que me permite trabajar eficientemente con diseñadores, otros desarrolladores y partes interesadas para lograr los objetivos del proyecto. Estoy siempre dispuesto a aprender de los demás y a aportar mis ideas para encontrar soluciones innovadoras."
+    "project.info8": "Diseño de un dashboard para proporcionar información detallada de los últimos partidos de futbol. Creado con la herramienta de Figma",
+    "project.title8": "Al Arco",
 
+    "project.info9": "Diseño de aplicación movil para la información general de un gimnasio. Creado con la herramienta de Figma",
+    "project.title9": "Atenas Gym-Club",
+
+    "info.me1": "Soy Andrés Jiménez, un profesional versátil con una combinación única de habilidades como Ingeniero en Computación, Diseñador UX/UI y Desarrollador Full Stack React. Mi enfoque diverso me permite crear soluciones tecnológicas completas y centradas en el usuario. Permíteme presentarte lo que puedo aportar",
+    "info.me2": "Como Ingeniero en Computación, tengo un sólido conocimiento de los fundamentos tecnológicos. Puedo abordar desafíos técnicos complejos, diseñar sistemas eficientes y aplicar metodologías de desarrollo sólidas. Mi formación en ingeniería me permite tomar decisiones informadas y construir soluciones que sean sólidas desde una perspectiva técnica",
+    "info.me3": "Como Diseñador UX/UI, mi enfoque se centra en las experiencias de los usuarios. Trabajo para comprender las necesidades y deseos de los usuarios y traducirlos en interfaces atractivas y fáciles de usar. Desde la creación de wireframes hasta el diseño visual, mi objetivo es garantizar que cada interacción sea intuitiva y satisfactoria.",
+    "info.me4": "Apasionado desarrollador Full Stack en React, con una sólida experiencia en la creación de aplicaciones web innovadoras y eficientes utilizando tecnologías modernas. Familiaridad con diversas bases de datos, incluidas SQL y NoSQL, así como la capacidad de diseñar y optimizar consultas para un rendimiento óptimo. Experiencia en el diseño y desarrollo de APIs robustas y escalables utilizando tecnologías como Node.js. Capacidad para traducir diseños y conceptos en componentes de alta calidad que brindan una experiencia de usuario excepcional. Conocimiento profundo de HTML, CSS y JavaScript para lograr una integración perfecta entre el frontend y el backend.",
+    "info.me5":"Tengo una amplia experiencia en el desarrollo Full Stack, lo que significa que puedo manejar tanto el backend como el frontend de una aplicación. Desde la implementación de servidores hasta la creación de interfaces dinámicas, tengo las habilidades para construir aplicaciones web completas que sean eficientes y escalables.",
+    "info.me6":"Mi filosofia de trabajo es:",
+    "info.me7":"Soluciones tecnológicas sólidas que se alinean con las necesidades de los usuarios y los objetivos del negocio.",
+    "info.me8":"Diseños de interfaz atractivos y funcionales que mejoran la experiencia del usuario.",
+    "info.me9":"Desarrollo integral de aplicaciones web que abarcan todos los aspectos, desde la funcionalidad hasta el diseño.",
+    "info.me10":"Habilidad para comunicar ideas técnicas y conceptos de diseño de manera clara y efectiva.",
+    "info.me11":"Enfoque en la colaboración y la creación de soluciones innovadoras."
 
 }

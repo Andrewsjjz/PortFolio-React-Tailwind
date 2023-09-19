@@ -45,7 +45,7 @@ const AppBanner = () => {
 				>
 				<FormattedMessage
 				id='content.info'
-				defaultMessage='Full-Stack & Front-end Developer'
+				defaultMessage='Computer engineer, UX/UI Designer and Full Stack React Developer'
 					/>
 				</motion.p>
 				<motion.div
