@@ -32,7 +32,7 @@
     "project.info6": "Project developed using HTML, CSS, React, Tailwind, and Next.js 12 technologies, leveraging the full power of Next.js 12, creating our own API with Strapi and using PostgreSQL database.",
 
     "project.title7": "My Way Restaurant",
-    "project.info7": "Project developed with the React, Tailwind and Next.js 12 languages, using a cloud database that is AWS and MySql and an ORM that would be Prisma. It has a client side where orders are placed and an admin panel where the kitchen side would be to confirm orders.",
+    "project.info7": "Project developed with the React, Tailwind and Next.js 12 languages, using a cloud database that is AWS and MySql and an ORM that would be Prisma. It has a client side where orders are placed and an admin panel where the kitchen side would be to confirm orders. It can be consulted by placing in the address bar /admin",
 
     "project.info8": "Design of a dashboard to provide detailed information on the latest soccer matches. Created with the Figma tool",
     "project.title8": "Al Arco",

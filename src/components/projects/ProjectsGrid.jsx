@@ -426,7 +426,7 @@ const ProjectsGrid = () => {
 							<FormattedMessage
 								id='project.info7'
 								defaultMessage=
-								'Project developed with the React, Tailwind and Next.js 12 languages, using a cloud database that is AWS and MySql and an ORM that would be Prisma. It has a client side where orders are placed and an admin panel where the kitchen side would be to confirm orders.'
+								'Project developed with the React, Tailwind and Next.js 12 languages, using a cloud database that is AWS and MySql and an ORM that would be Prisma. It has a client side where orders are placed and an admin panel where the kitchen side would be to confirm orders. It can be consulted by placing in the address bar /admin'
 							/>
 						</motion.p>
 					</div>
