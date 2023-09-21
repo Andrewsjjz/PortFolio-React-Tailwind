@@ -5,6 +5,7 @@ import clima from '../../images/Proyectos/clima.png'
 import buscadorbebidas from '../../images/Proyectos/buscadorbebidas.png'
 import myway from '../../images/Proyectos/Myway.png'
 import atenas from '../../images/Proyectos/Atenas.png'
+import mern from '../../images/Proyectos/MERN.jpg'
 
 import arco from '../../images/Proyectos/Al Arco.png'
 import atenasgym from '../../images/Proyectos/Atenas Gym.png'
@@ -36,6 +37,7 @@ const ProjectsGrid = () => {
 
 			<div className="grid sm:grid-cols-2 lg:grid-cols-3 m-64 sm:gap-10">
 
+				
 				<div class="block rounded-lg bg-white 
 	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
 					<a href="#!">
@@ -444,9 +446,72 @@ const ProjectsGrid = () => {
 					</div>
 
 				</div>
+
+				<div class="block rounded-lg bg-white 
+	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+					<div className='items-center justify-center flex'>
+
+					<a href="#!">
+						<img
+							class="rounded-t-lg w-52 h-56 mb-2 "
+							src={mern}
+							alt="" /> </a>
+					</div>
+
+
+					<div class="mt-16">
+						<motion.p
+							initial={{ opacity: 0 }}
+							animate={{ opacity: 1 }}
+							transition={{
+								ease: 'easeInOut',
+								duration: 0.9,
+								delay: 0.1,
+							}}
+							className="font-general-semibold text-xl lg:text-xl xl:text-3xl text-center sm:text-left text-ternary-dark
+		 dark:text-primary-light uppercase mb-4 mt-4"
+						>
+							<FormattedMessage
+								id='project.title10'
+								defaultMessage='UpTask'
+							/>
+						</motion.p>
+
+						<motion.p
+							initial={{ opacity: 0 }}
+							animate={{ opacity: 1 }}
+							transition={{
+								ease: 'easeInOut',
+								duration: 0.9,
+								delay: 0.1,
+							}}
+							className=" text-base lg:text-base xl:text-base text-center sm:text-left text-dark
+		dark:text-primary-light mb-4 mt-4"
+						>
+							<FormattedMessage
+								id='project.info10'
+								defaultMessage=
+								'MERN type project, it is an application where its function is project management, allowing CRUD functions to be carried out as well as adding collaborators, with a section that allows the registration of other people. Using MongoDB as a database, for the Node JS and Express JS backend. Like React and Tailwind frontend. In addition to implementing Socket io and Sendgrid'
+							/>
+						</motion.p>
+					</div>
+
+					<div className='flex items-center justify-center mb-10'>
+						<a href='https://mern-project-frontend-nine.vercel.app/' target="_blank" rel="noopener noreferrer" class="font-general-medium flex justify-center items-center px-6 py-3 
+  rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 
+  focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300">
+							<FormattedMessage
+								id='project.button'
+								defaultMessage=
+								'Visit'
+							/>
+						</a>
+					</div>
+
+				</div>
 			</div>
 
-			<div className="text-center pt-10">
+			<div className="text-center pt-10 mb-12">
 				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
 					<FormattedMessage
 						id='project.h2'
@@ -533,7 +598,7 @@ const ProjectsGrid = () => {
 								delay: 0.1,
 							}}
 							className="font-general-semibold text-xl lg:text-xl xl:text-3xl text-center sm:text-left text-ternary-dark
-		 dark:text-primary-light uppercase mb-4 mt-4"
+		 dark:text-primary-light uppercase mb-4 mt-8"
 						>
 							<FormattedMessage
 								id='project.title9'
