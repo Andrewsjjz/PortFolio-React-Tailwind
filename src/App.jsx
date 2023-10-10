@@ -9,6 +9,7 @@ import UseScrollToTop from './hooks/useScrollToTop';
 
 
 import { TranslateProvider } from './context/TranslateProvider';
+import { ProyectosProvider } from './context/ProyectosContext';
 
 
 const About = lazy(() => import('./pages/AboutMe'));
@@ -24,32 +25,34 @@ function App() {
 
 	return (
 		<AnimatePresence>
-			<TranslateProvider>
+			<ProyectosProvider>
+
+				<TranslateProvider>
 
 
-			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
-				<Router>
-					<ScrollToTop />
-					<AppHeader />
-					<Suspense fallback={""}>
-						<Routes>
-							<Route path="/" element={<Home />} />
-							<Route path="projects" element={<Projects />} />
-							<Route
-								path="projects/single-project"
-								element={<ProjectSingle />}
-							/>
+					<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
+						<Router>
+							<ScrollToTop />
+							<AppHeader />
+							<Suspense fallback={""}>
+								<Routes>
+									<Route path="/" element={<Home />} />
+									<Route path="projects" element={<Projects />} />
+									<Route
+										path="projects/single-project"
+										element={<ProjectSingle />}
+									/>
 
-							<Route path="about" element={<About />} />
-							<Route path="contact" element={<Contact />} />
-						</Routes>
-					</Suspense>
-					<AppFooter />
-				</Router>
-				<UseScrollToTop />
-			</div>
-
-			</TranslateProvider>
+									<Route path="about" element={<About />} />
+									<Route path="contact" element={<Contact />} />
+								</Routes>
+							</Suspense>
+							<AppFooter />
+						</Router>
+						<UseScrollToTop />
+					</div>
+				</TranslateProvider>
+			</ProyectosProvider>
 		</AnimatePresence>
 	);
 }

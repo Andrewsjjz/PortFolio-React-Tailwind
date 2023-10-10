@@ -9,6 +9,7 @@ import UseScrollToTop from './hooks/useScrollToTop';
 
 
 import { TranslateProvider } from './context/TranslateProvider';
+import { ProyectosProvider } from './context/ProyectosProvider';
 
 
 const About = lazy(() => import('./pages/AboutMe'));
@@ -25,7 +26,7 @@ function App() {
 	return (
 		<AnimatePresence>
 			<TranslateProvider>
-
+			<ProyectosProvider>
 
 			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
 				<Router>
@@ -48,7 +49,8 @@ function App() {
 				</Router>
 				<UseScrollToTop />
 			</div>
-
+			
+			</ProyectosProvider>
 			</TranslateProvider>
 		</AnimatePresence>
 	);

@@ -13,7 +13,7 @@ const AboutMeBio = () => {
 			<div className="w-full sm:w-1/4 mb-7 sm:mb-0">
 				<img src={yo} className="rounded-lg w-96" alt="" />
 			</div>
-
+			
 			<div className="font-general-regular w-full sm:w-3/4 text-justify">
 
 					<p className="mb-4 text-ternary-dark dark:text-ternary-light text-lg text-justify">
