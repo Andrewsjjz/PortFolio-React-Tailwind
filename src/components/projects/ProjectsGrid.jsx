@@ -6,6 +6,7 @@ import buscadorbebidas from '../../images/Proyectos/buscadorbebidas.png'
 import myway from '../../images/Proyectos/Myway.png'
 import atenas from '../../images/Proyectos/Atenas.png'
 import mern from '../../images/Proyectos/MERN.jpg'
+import trade from '../../images/Proyectos/Index Desktop.png'
 
 import arco from '../../images/Proyectos/Al Arco.png'
 import atenasgym from '../../images/Proyectos/Atenas Gym.png'
@@ -541,7 +542,7 @@ const ProjectsGrid = () => {
 							src={arco}
 							alt="" /> </a>
 
-					<div class="mt-16">
+					<div class="mt-10">
 						<motion.p
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
@@ -650,6 +651,64 @@ const ProjectsGrid = () => {
 
 				</div>
 
+				<div class="block rounded-lg bg-white 
+	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+					<div className='w-full mt-12'>
+						<img
+							class="rounded-t-lg w-full"
+							src={trade}
+							alt="" /> </div>
+
+					<div class="mt-20">
+						<motion.p
+							initial={{ opacity: 0 }}
+							animate={{ opacity: 1 }}
+							transition={{
+								ease: 'easeInOut',
+								duration: 0.9,
+								delay: 0.1,
+							}}
+							className="font-general-semibold text-xl lg:text-xl xl:text-3xl text-center sm:text-left text-ternary-dark
+		 dark:text-primary-light uppercase mb-4 mt-4"
+						>
+							<FormattedMessage
+								id='project.title11'
+								defaultMessage='Trade Bank'
+							/>
+						</motion.p>
+
+						<motion.p
+							initial={{ opacity: 0 }}
+							animate={{ opacity: 1 }}
+							transition={{
+								ease: 'easeInOut',
+								duration: 0.9,
+								delay: 0.1,
+							}}
+							className=" text-base lg:text-base xl:text-base text-center sm:text-left text-dark
+		dark:text-primary-light mb-4 mt-4"
+						>
+							<FormattedMessage
+								id='project.info11'
+								defaultMessage=
+								'UI design of a bank that allows the purchase and sale of crypto as well as owning the currency. Web design and mobile design. Figma Design Tool'
+							/>
+						</motion.p>
+					</div>
+
+					<div className='flex items-center justify-center mb-10'>
+						<a href='https://www.behance.net/gallery/181376653/Trade-Bank' target="_blank" rel="noopener noreferrer" class="font-general-medium flex justify-center items-center px-6 py-3 
+  rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 
+  focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300">
+							<FormattedMessage
+								id='project.button'
+								defaultMessage=
+								'Visit'
+							/>
+						</a>
+					</div>
+
+				</div>
 			</div> 
 		</section>
 	);

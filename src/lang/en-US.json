@@ -43,6 +43,9 @@
     "project.info10": "MERN type project, it is an application where its function is project management, allowing CRUD functions to be carried out as well as adding collaborators, with a section that allows the registration of other people. Using MongoDB as a database, for the Node JS and Express JS backend. Like React and Tailwind frontend. In addition to implementing Socket io and Sendgrid",
     "project.title10": "UpTask",
 
+    "project.info11": "UI design of a bank that allows the purchase and sale of crypto as well as owning the currency. Web design and mobile design. Figma Design Tool",
+    "project.title11": "Trade Bank",
+
     "info.me1": "I'm Andrés Jiménez, a versatile professional with a unique combination of skills as a Computer Engineer, UX/UI Designer and Full Stack React Developer. My diverse approach allows me to create end-to-end, user-focused technology solutions. Let me introduce you to what I can contribute.",
     "info.me2": "As a Computer Engineer, I have a solid understanding of technological fundamentals. I can tackle complex technical challenges, design efficient systems, and apply sound development methodologies. My engineering background allows me to make informed decisions and build solutions that are sound from a technical perspective.",
     "info.me3": "As a UX/UI Designer, my focus is on user experiences. I work to understand the needs and desires of users and translate them into attractive and easy-to-use interfaces. From wireframing to visual design, my goal is to ensure every interaction is intuitive and satisfying.",
