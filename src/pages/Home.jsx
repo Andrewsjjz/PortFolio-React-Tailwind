@@ -17,15 +17,15 @@ const Home = () => {
 
 			<div className="grid sm:grid-cols-2 lg:grid-cols-3 m-64 sm:gap-10 text-justify">
 
-			<div class="block rounded-lg bg-white 
+			<div className="block rounded-lg bg-white 
 	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
 		<a href="#!">
 			<img
-				class="rounded-t-lg"
+				className="rounded-t-lg"
 				src={myway}
 				alt="" /> </a>
 
-  <div class="mt-16">
+  <div className="mt-16">
   	<motion.p
 		initial={{ opacity: 0 }}
 		animate={{ opacity: 1 }}
@@ -76,15 +76,15 @@ const Home = () => {
 </div>
 </div>
 
-<div class="block rounded-lg bg-white 
+<div className="block rounded-lg bg-white 
 	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
 		<a href="#!">
 			<img
-				class="rounded-t-lg"
+				className="rounded-t-lg"
 				src={clima}
 				alt="" /> </a>
 
-  <div class="">
+  <div className="">
   	<motion.p
 		initial={{ opacity: 0 }}
 		animate={{ opacity: 1 }}
@@ -135,15 +135,15 @@ const Home = () => {
 
 </div>
 
-<div class="block rounded-lg bg-white 
+<div className="block rounded-lg bg-white 
 	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
 		<a href="#!">
 			<img
-				class="rounded-t-lg"
+				className="rounded-t-lg"
 				src={atenas}
 				alt="" /> </a>
 
-  <div class="">
+  <div className="">
   	<motion.p
 		initial={{ opacity: 0 }}
 		animate={{ opacity: 1 }}
