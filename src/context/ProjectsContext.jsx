@@ -5,7 +5,7 @@ import { projectsData } from '../data/projects';
 export const ProjectsContext = createContext();
 
 // Create the projects context provider
-export const ProjectsProvider = (props) => {
+export const ProjectsProvider = (children) => {
 	const [projects, setProjects] = useState(projectsData);
 	const [searchProject, setSearchProject] = useState('');
 	const [selectProject, setSelectProject] = useState('');
@@ -42,7 +42,7 @@ export const ProjectsProvider = (props) => {
 				selectProjectsByCategory,
 			}}
 		>
-			{props.children}
+			{children}
 		</ProjectsContext.Provider>
 	);
 };
