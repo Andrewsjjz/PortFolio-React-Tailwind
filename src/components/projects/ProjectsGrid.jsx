@@ -14,13 +14,12 @@ import atenasgym from "../../images/Proyectos/Atenas Gym.png";
 import { motion } from "framer-motion";
 import { FormattedMessage } from "react-intl";
 
-import { useContext } from "react";
-import Projects from "./Projects";
+// import { useContext } from "react";
 
-import ProyectosContext from "../../context/ProyectosContext";
+// import ProyectosContext from "../../context/ProyectosContext";
 
 const ProjectsGrid = () => {
-  const { proyectos, setProyectos } = useContext(ProyectosContext);
+  // const { proyectos, setProyectos } = useContext(ProyectosContext);
 
   return (
     <section className="py-5 sm:py-10 mt-5 sm:mt-10">
@@ -38,9 +37,9 @@ const ProjectsGrid = () => {
       </div>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 m-64 sm:gap-10 ">
-        <div class="rounded-lg bg-white overflow-hidden">
+        <div className="rounded-lg bg-white overflow-hidden">
           <div className="w-80">
-            <img class="rounded-t-lg" src={registroClientes} alt="" />
+            <img className="rounded-t-lg" src={registroClientes} alt="" />
           </div>
 
           <div className="overflow-hidden">
@@ -87,7 +86,7 @@ const ProjectsGrid = () => {
               href="https://registo-clientes-react.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-general-medium flex justify-center items-center px-6 py-3 
+              className="font-general-medium flex justify-center items-center px-6 py-3 
   rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 
   focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
             >
@@ -96,12 +95,12 @@ const ProjectsGrid = () => {
           </div>
         </div>
 
-        <div class="rounded-lg bg-white overflow-hidden">
+        <div className="rounded-lg bg-white overflow-hidden">
           <div className="flex w-80">
-            <img class="rounded-t-lg" src={controlGastos} alt="" />
+            <img className="rounded-t-lg" src={controlGastos} alt="" />
           </div>
 
-          <div class="overflow-hidden">
+          <div className="overflow-hidden">
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -120,7 +119,7 @@ const ProjectsGrid = () => {
             </motion.p>
           </div>
 
-          <div class="">
+          <div className="">
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -144,7 +143,7 @@ const ProjectsGrid = () => {
               href="https://gastocontrolreact.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-general-medium flex justify-center items-center px-6 py-3 
+              className="font-general-medium flex justify-center items-center px-6 py-3 
   rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 
   focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
             >
@@ -153,12 +152,12 @@ const ProjectsGrid = () => {
           </div>
         </div>
 
-        <div class="block rounded-lg bg-white overflow-hidden">
+        <div className="block rounded-lg bg-white overflow-hidden">
           <a href="#!">
-            <img class="rounded-t-lg" src={cotizador} alt="" />{" "}
+            <img className="rounded-t-lg" src={cotizador} alt="" />{" "}
           </a>
 
-          <div class="">
+          <div className="">
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -198,7 +197,7 @@ const ProjectsGrid = () => {
               href="https://cotizadorvehiculos-react.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-general-medium flex justify-center items-center px-6 py-3 
+              className="font-general-medium flex justify-center items-center px-6 py-3 
   rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 
   focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
             >
@@ -208,14 +207,14 @@ const ProjectsGrid = () => {
         </div>
 
         <div
-          class="block rounded-lg bg-white 
+          className="block rounded-lg bg-white 
 	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
         >
           <a href="#!">
-            <img class="rounded-t-lg" src={clima} alt="" />{" "}
+            <img className="rounded-t-lg" src={clima} alt="" />{" "}
           </a>
 
-          <div class="">
+          <div className="">
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -256,7 +255,7 @@ const ProjectsGrid = () => {
               href="https://climaapireact.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-general-medium flex justify-center items-center px-6 py-3 
+              className="font-general-medium flex justify-center items-center px-6 py-3 
   rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 
   focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
             >
@@ -266,14 +265,14 @@ const ProjectsGrid = () => {
         </div>
 
         <div
-          class="block rounded-lg bg-white 
+          className="block rounded-lg bg-white 
 	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
         >
           <a href="#!">
-            <img class="rounded-t-lg" src={buscadorbebidas} alt="" />{" "}
+            <img className="rounded-t-lg" src={buscadorbebidas} alt="" />{" "}
           </a>
 
-          <div class="">
+          <div className="">
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -314,7 +313,7 @@ const ProjectsGrid = () => {
               href="https://buscador-bebidas-react-bootstrap.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-general-medium flex justify-center items-center px-6 py-3 
+              className="font-general-medium flex justify-center items-center px-6 py-3 
   rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 
   focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
             >
@@ -324,14 +323,14 @@ const ProjectsGrid = () => {
         </div>
 
         <div
-          class="block rounded-lg bg-white 
+          className="block rounded-lg bg-white 
 	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
         >
           <a href="#!">
-            <img class="rounded-t-lg" src={atenas} alt="" />{" "}
+            <img className="rounded-t-lg" src={atenas} alt="" />{" "}
           </a>
 
-          <div class="">
+          <div className="">
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -372,7 +371,7 @@ const ProjectsGrid = () => {
               href="https://atenas-gym-club.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-general-medium flex justify-center items-center px-6 py-3 
+              className="font-general-medium flex justify-center items-center px-6 py-3 
   rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 
   focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
             >
@@ -382,14 +381,14 @@ const ProjectsGrid = () => {
         </div>
 
         <div
-          class="block rounded-lg bg-white 
+          className="block rounded-lg bg-white 
 	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
         >
           <a href="#!">
-            <img class="rounded-t-lg" src={myway} alt="" />{" "}
+            <img className="rounded-t-lg" src={myway} alt="" />{" "}
           </a>
 
-          <div class="mt-16">
+          <div className="mt-16">
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -430,7 +429,7 @@ const ProjectsGrid = () => {
               href="https://restaurante-next.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-general-medium flex justify-center items-center px-6 py-3 
+              className="font-general-medium flex justify-center items-center px-6 py-3 
   rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 
   focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
             >
@@ -440,16 +439,16 @@ const ProjectsGrid = () => {
         </div>
 
         <div
-          class="block rounded-lg bg-white 
+          className="block rounded-lg bg-white 
 	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
         >
           <div className="items-center justify-center flex">
             <a href="#!">
-              <img class="rounded-t-lg w-52 h-56 mb-2 " src={mern} alt="" />{" "}
+              <img className="rounded-t-lg w-52 h-56 mb-2 " src={mern} alt="" />{" "}
             </a>
           </div>
 
-          <div class="mt-16">
+          <div className="mt-16">
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -487,7 +486,7 @@ const ProjectsGrid = () => {
               href="https://mern-project-frontend-nine.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-general-medium flex justify-center items-center px-6 py-3 
+              className="font-general-medium flex justify-center items-center px-6 py-3 
   rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 
   focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
             >
@@ -508,14 +507,14 @@ const ProjectsGrid = () => {
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 m-64 sm:gap-10">
         <div
-          class="block rounded-lg bg-white 
+          className="block rounded-lg bg-white 
 	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
         >
           <a href="#!">
-            <img class="rounded-t-lg" src={arco} alt="" />{" "}
+            <img className="rounded-t-lg" src={arco} alt="" />{" "}
           </a>
 
-          <div class="mt-10">
+          <div className="mt-10">
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -553,7 +552,7 @@ const ProjectsGrid = () => {
               href="https://www.behance.net/gallery/180390379/Al-Arco"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-general-medium flex justify-center items-center px-6 py-3 
+              className="font-general-medium flex justify-center items-center px-6 py-3 
   rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 
   focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
             >
@@ -563,14 +562,14 @@ const ProjectsGrid = () => {
         </div>
 
         <div
-          class="block rounded-lg bg-white 
+          className="block rounded-lg bg-white 
 	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
         >
           <a href="#!">
-            <img class="rounded-t-lg" src={atenasgym} alt="" />{" "}
+            <img className="rounded-t-lg" src={atenasgym} alt="" />{" "}
           </a>
 
-          <div class="mt-16">
+          <div className="mt-16">
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -611,7 +610,7 @@ const ProjectsGrid = () => {
               href="https://www.behance.net/gallery/180391275/Atenas-Gym-Club"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-general-medium flex justify-center items-center px-6 py-3 
+              className="font-general-medium flex justify-center items-center px-6 py-3 
   rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 
   focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
             >
@@ -621,14 +620,14 @@ const ProjectsGrid = () => {
         </div>
 
         <div
-          class="block rounded-lg bg-white 
+          className="block rounded-lg bg-white 
 	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
         >
           <div className="w-full mt-12">
-            <img class="rounded-t-lg w-full" src={trade} alt="" />{" "}
+            <img className="rounded-t-lg w-full" src={trade} alt="" />{" "}
           </div>
 
-          <div class="mt-20">
+          <div className="mt-20">
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -669,7 +668,7 @@ const ProjectsGrid = () => {
               href="https://www.behance.net/gallery/181376653/Trade-Bank"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-general-medium flex justify-center items-center px-6 py-3 
+              className="font-general-medium flex justify-center items-center px-6 py-3 
   rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 
   focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
             >
@@ -678,63 +677,6 @@ const ProjectsGrid = () => {
           </div>
         </div>
 
-        <div
-          class="block rounded-lg bg-white 
-	shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
-        >
-          <div className="w-full mt-12">
-            <img class="rounded-t-lg w-full" src={trade} alt="" />{" "}
-          </div>
-
-          <div class="mt-20">
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{
-                ease: "easeInOut",
-                duration: 0.9,
-                delay: 0.1,
-              }}
-              className="font-general-semibold text-xl lg:text-xl xl:text-3xl text-center sm:text-left text-ternary-dark
-		 dark:text-primary-light uppercase mb-4 mt-4"
-            >
-              <FormattedMessage
-                id="project.title11"
-                defaultMessage="Trade Bank"
-              />
-            </motion.p>
-
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{
-                ease: "easeInOut",
-                duration: 0.9,
-                delay: 0.1,
-              }}
-              className=" text-base lg:text-base xl:text-base text-center sm:text-left text-dark
-		dark:text-primary-light mb-4 mt-4"
-            >
-              <FormattedMessage
-                id="project.info11"
-                defaultMessage="UI design of a bank that allows the purchase and sale of crypto as well as owning the currency. Web design and mobile design. Figma Design Tool"
-              />
-            </motion.p>
-          </div>
-
-          <div className="flex items-center justify-center mb-10">
-            <a
-              href="https://www.behance.net/gallery/181376653/Trade-Bank"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="font-general-medium flex justify-center items-center px-6 py-3 
-  rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 
-  focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
-            >
-              <FormattedMessage id="project.button" defaultMessage="Visit" />
-            </a>
-          </div>
-        </div>
 
       </div>
     </section>
